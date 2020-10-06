@@ -1,0 +1,3 @@
+C:/saarland/learning/C++ Design pattern project/cmake-build-debug/CMakeFiles/C___Design_pattern_project.dir
+C:/saarland/learning/C++ Design pattern project/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/saarland/learning/C++ Design pattern project/cmake-build-debug/CMakeFiles/rebuild_cache.dir

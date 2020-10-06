@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/saarland/learning/C++ Design pattern project/OpenClosedPrinciple.cpp
+Vector
+-
+string
+-
+iostream
+-
+boost/lexical_cast.hpp
+-
+
