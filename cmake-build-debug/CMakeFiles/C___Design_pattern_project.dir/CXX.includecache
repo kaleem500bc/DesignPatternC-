@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/saarland/learning/C++ Design pattern project/OpenClosedPrinciple.cpp
-Vector
--
+C:/saarland/DesignPattern/DesignPatternCplusplus/DependencyInversion.cpp
 string
+-
+vector
 -
 iostream
 -
-boost/lexical_cast.hpp
+tuple
 -
 

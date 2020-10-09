@@ -63,10 +63,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\saarland\learning\C++ Design pattern project"
+CMAKE_SOURCE_DIR = C:\saarland\DesignPattern\DesignPatternCplusplus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\saarland\learning\C++ Design pattern project\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\saarland\DesignPattern\DesignPatternCplusplus\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -93,14 +93,14 @@ clean: CMakeFiles/C___Design_pattern_project.dir/clean
 CMakeFiles/C___Design_pattern_project.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C___Design_pattern_project.dir\build.make CMakeFiles/C___Design_pattern_project.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C___Design_pattern_project.dir\build.make CMakeFiles/C___Design_pattern_project.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\saarland\learning\C++ Design pattern project\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target C___Design_pattern_project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\saarland\DesignPattern\DesignPatternCplusplus\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target C___Design_pattern_project"
 .PHONY : CMakeFiles/C___Design_pattern_project.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/C___Design_pattern_project.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\saarland\learning\C++ Design pattern project\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\saarland\DesignPattern\DesignPatternCplusplus\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/C___Design_pattern_project.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\saarland\learning\C++ Design pattern project\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\saarland\DesignPattern\DesignPatternCplusplus\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/C___Design_pattern_project.dir/rule
 
 # Convenience name for target.

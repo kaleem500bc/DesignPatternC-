@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/saarland/learning/C++ Design pattern project/OpenClosedPrinciple.cpp" "C:/saarland/learning/C++ Design pattern project/cmake-build-debug/CMakeFiles/C___Design_pattern_project.dir/OpenClosedPrinciple.cpp.obj"
+  "C:/saarland/DesignPattern/DesignPatternCplusplus/DependencyInversion.cpp" "C:/saarland/DesignPattern/DesignPatternCplusplus/cmake-build-debug/CMakeFiles/C___Design_pattern_project.dir/DependencyInversion.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

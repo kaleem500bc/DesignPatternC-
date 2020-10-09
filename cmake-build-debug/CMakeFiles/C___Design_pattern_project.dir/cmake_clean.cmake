@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/C___Design_pattern_project.dir/OpenClosedPrinciple.cpp.obj"
+  "CMakeFiles/C___Design_pattern_project.dir/DependencyInversion.cpp.obj"
   "C___Design_pattern_project.exe"
   "C___Design_pattern_project.exe.manifest"
   "C___Design_pattern_project.pdb"

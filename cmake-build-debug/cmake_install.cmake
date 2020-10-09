@@ -1,4 +1,4 @@
-# Install script for directory: C:/saarland/learning/C++ Design pattern project
+# Install script for directory: C:/saarland/DesignPattern/DesignPatternCplusplus
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/saarland/learning/C++ Design pattern project/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/saarland/DesignPattern/DesignPatternCplusplus/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

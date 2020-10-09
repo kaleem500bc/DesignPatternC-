@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\saarland\learning\C++ Design pattern project"
+CMAKE_SOURCE_DIR = C:\saarland\DesignPattern\DesignPatternCplusplus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\saarland\learning\C++ Design pattern project\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\saarland\DesignPattern\DesignPatternCplusplus\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\saarland\learning\C++ Design pattern project\cmake-build-debug\CMakeFiles" "C:\saarland\learning\C++ Design pattern project\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\saarland\DesignPattern\DesignPatternCplusplus\cmake-build-debug\CMakeFiles C:\saarland\DesignPattern\DesignPatternCplusplus\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\saarland\learning\C++ Design pattern project\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\saarland\DesignPattern\DesignPatternCplusplus\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,32 +142,32 @@ C___Design_pattern_project/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C___Design_pattern_project.dir\build.make CMakeFiles/C___Design_pattern_project.dir/build
 .PHONY : C___Design_pattern_project/fast
 
-OpenClosedPrinciple.obj: OpenClosedPrinciple.cpp.obj
+DependencyInversion.obj: DependencyInversion.cpp.obj
 
-.PHONY : OpenClosedPrinciple.obj
+.PHONY : DependencyInversion.obj
 
 # target to build an object file
-OpenClosedPrinciple.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C___Design_pattern_project.dir\build.make CMakeFiles/C___Design_pattern_project.dir/OpenClosedPrinciple.cpp.obj
-.PHONY : OpenClosedPrinciple.cpp.obj
+DependencyInversion.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C___Design_pattern_project.dir\build.make CMakeFiles/C___Design_pattern_project.dir/DependencyInversion.cpp.obj
+.PHONY : DependencyInversion.cpp.obj
 
-OpenClosedPrinciple.i: OpenClosedPrinciple.cpp.i
+DependencyInversion.i: DependencyInversion.cpp.i
 
-.PHONY : OpenClosedPrinciple.i
+.PHONY : DependencyInversion.i
 
 # target to preprocess a source file
-OpenClosedPrinciple.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C___Design_pattern_project.dir\build.make CMakeFiles/C___Design_pattern_project.dir/OpenClosedPrinciple.cpp.i
-.PHONY : OpenClosedPrinciple.cpp.i
+DependencyInversion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C___Design_pattern_project.dir\build.make CMakeFiles/C___Design_pattern_project.dir/DependencyInversion.cpp.i
+.PHONY : DependencyInversion.cpp.i
 
-OpenClosedPrinciple.s: OpenClosedPrinciple.cpp.s
+DependencyInversion.s: DependencyInversion.cpp.s
 
-.PHONY : OpenClosedPrinciple.s
+.PHONY : DependencyInversion.s
 
 # target to generate assembly for a file
-OpenClosedPrinciple.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C___Design_pattern_project.dir\build.make CMakeFiles/C___Design_pattern_project.dir/OpenClosedPrinciple.cpp.s
-.PHONY : OpenClosedPrinciple.cpp.s
+DependencyInversion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C___Design_pattern_project.dir\build.make CMakeFiles/C___Design_pattern_project.dir/DependencyInversion.cpp.s
+.PHONY : DependencyInversion.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C___Design_pattern_project
-	@echo ... OpenClosedPrinciple.obj
-	@echo ... OpenClosedPrinciple.i
-	@echo ... OpenClosedPrinciple.s
+	@echo ... DependencyInversion.obj
+	@echo ... DependencyInversion.i
+	@echo ... DependencyInversion.s
 .PHONY : help
 
 
